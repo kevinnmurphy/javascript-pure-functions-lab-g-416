@@ -17,7 +17,7 @@ function addToPlaylist() {
   
 }
 
-function addToPlaylist() {
+function removeFromPlaylist() {
   
 }
 
