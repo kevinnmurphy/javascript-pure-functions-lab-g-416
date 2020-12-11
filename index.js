@@ -17,9 +17,7 @@ const addToPlaylist = (playlist, episode) => {...playlist, episode}
 
 const removeFromPlaylist = (playlist, episode) => playlist.filter(ep => ep.id !== episode.id)
 
-const getNextEpisodeInPlaylist = () => {
-  
-}
+const getNextEpisodeInPlaylist = (playlist) => {playlist[0]}
 
 function bingeWatch() {
   
