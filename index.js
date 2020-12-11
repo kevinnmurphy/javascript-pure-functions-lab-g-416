@@ -21,7 +21,7 @@ function removeFromPlaylist() {
   
 }
 
-function addToPlaylist() {
+function getNextEpisodeInPlaylist() {
   
 }
 
