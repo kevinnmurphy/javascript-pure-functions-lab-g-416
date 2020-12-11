@@ -13,9 +13,7 @@ const episodes = [
 const finaleEpisode = { id: 's06e10', title: 'The Winds of Winter' };
 
 
-const addToPlaylist = () => {
-  
-}
+const addToPlaylist = (playlist, episode) => {...playlist, episode}
 
 const removeFromPlaylist = () => {
   
