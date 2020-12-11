@@ -25,6 +25,6 @@ function getNextEpisodeInPlaylist() {
   
 }
 
-function addToPlaylist() {
+function bingeWatch() {
   
 }
