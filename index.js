@@ -19,6 +19,11 @@ const removeFromPlaylist = (playlist, episode) => playlist.filter(ep => ep.id !=
 
 const getNextEpisodeInPlaylist = (playlist) => {playlist[0]}
 
-function bingeWatch() {
-  
+function bingeWatch(playlist) {
+  if (playlist.length === 0) {
+    return 'Please let there be more!'
+  }
+
+  const nextEpisode = getNextEpisodeInPlaylist(playlist)
+  return bingeWatch(removeFromPlaylist(playlist, nextEpisode))
 }
