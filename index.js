@@ -16,3 +16,15 @@ const finaleEpisode = { id: 's06e10', title: 'The Winds of Winter' };
 function addToPlaylist() {
   
 }
+
+function addToPlaylist() {
+  
+}
+
+function addToPlaylist() {
+  
+}
+
+function addToPlaylist() {
+  
+}
